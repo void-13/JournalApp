@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: journalApp
+  data:
+    mongodb:
+      uri: mongodb+srv://anamika13sinha_db_user:k1EbnDaG1KNxqWSw@cluster0.oukyhon.mongodb.net/?appName=Cluster0
+      database: journaldb
+      auto-index-creation: true
+server:
+  port: 8080
+  servlet:
+    context-path: /journal
+
+news:
+  api:
+    key: ed146200c52f499081edb4edd8ad07f4
